@@ -1,0 +1,885 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>CircuitNest BD | Tech Accessories & Gadgets Hub</title>
+<meta name="description" content="CircuitNest BD - Mid-range phones, CCTV cameras, graphics cards, PC build components and computer accessories in Bangladesh. Order via WhatsApp."/>
+<meta name="keywords" content="CCTV camera Bangladesh, mid-range phone Savar, graphics card Bangladesh, PC build Dhaka, CircuitNest BD"/>
+<style>
+:root{
+  --blue:#1a56db;
+  --blue2:#1e40af;
+  --navy:#0f172a;
+  --navy2:#1e293b;
+  --accent:#3b82f6;
+  --green:#16a34a;
+  --green2:#22c55e;
+  --orange:#ea580c;
+  --bg:#f1f5f9;
+  --card:#ffffff;
+  --text:#0f172a;
+  --muted:#64748b;
+  --border:#e2e8f0;
+  --shadow:0 4px 24px rgba(15,23,42,.10);
+  --shadow2:0 8px 40px rgba(15,23,42,.16);
+  --radius:20px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Segoe UI',Arial,Helvetica,sans-serif;background:var(--bg);color:var(--text);line-height:1.6;overflow-x:hidden}
+a{text-decoration:none;color:inherit}
+img{max-width:100%;display:block}
+
+/* ===== TOP BAR ===== */
+.topbar{background:linear-gradient(90deg,#0a1628 0%,#1a3a6b 50%,#0a1628 100%);color:#fff;font-size:13px;padding:8px 0;border-bottom:1px solid rgba(255,255,255,.08)}
+.topbar-inner{max-width:1200px;margin:0 auto;padding:0 24px;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.topbar-left{display:flex;align-items:center;gap:10px;color:#93c5fd}
+.topbar-badge{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.2);border-radius:999px;padding:4px 12px;font-weight:700;color:#fff;font-size:12px}
+.topbar-links{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.topbar-link{display:inline-flex;align-items:center;gap:6px;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.18);border-radius:999px;padding:5px 12px;color:#fff;font-weight:600;font-size:12px;transition:.2s}
+.topbar-link:hover{background:#fff;color:#0f172a}
+
+/* ===== HEADER ===== */
+.header{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.97);backdrop-filter:blur(16px);border-bottom:1px solid var(--border);box-shadow:0 2px 12px rgba(15,23,42,.06)}
+.nav{max-width:1200px;margin:0 auto;padding:0 24px;min-height:72px;display:flex;align-items:center;justify-content:space-between;gap:16px}
+.brand{display:flex;align-items:center;gap:12px}
+.brand-logo{width:48px;height:48px;border-radius:14px;background:linear-gradient(135deg,#1a56db,#0ea5e9);display:flex;align-items:center;justify-content:center;color:#fff;font-weight:900;font-size:18px;box-shadow:0 6px 20px rgba(26,86,219,.3)}
+.brand-text h1{font-size:20px;font-weight:800;color:var(--navy);letter-spacing:-.3px}
+.brand-text p{font-size:11px;color:var(--muted);font-weight:600}
+.nav-links{display:flex;gap:28px;align-items:center}
+.nav-links a{font-size:14px;font-weight:700;color:#334155;transition:.2s}
+.nav-links a:hover{color:var(--blue)}
+.nav-actions{display:flex;align-items:center;gap:10px}
+.btn{border:none;cursor:pointer;border-radius:14px;padding:11px 18px;font-weight:700;font-size:14px;display:inline-flex;align-items:center;justify-content:center;gap:7px;transition:.2s;white-space:nowrap}
+.btn:hover{transform:translateY(-1px)}
+.btn-primary{background:var(--blue);color:#fff;box-shadow:0 6px 20px rgba(26,86,219,.25)}
+.btn-primary:hover{background:var(--blue2)}
+.btn-green{background:var(--green2);color:#fff;box-shadow:0 6px 18px rgba(34,197,94,.25)}
+.btn-green:hover{background:var(--green)}
+.btn-outline{background:#fff;border:1.5px solid var(--border);color:var(--text)}
+.btn-ghost{background:transparent;border:1.5px solid rgba(255,255,255,.3);color:#fff}
+.cart-badge{background:#fff;color:var(--blue);border-radius:999px;min-width:20px;height:20px;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:900}
+.hamburger{display:none;width:44px;height:44px;border-radius:12px;border:1.5px solid var(--border);background:#fff;font-size:20px;align-items:center;justify-content:center;cursor:pointer}
+.mobile-menu{display:none;padding-bottom:12px}
+.mobile-menu a{display:block;border-top:1px solid var(--border);padding:12px 24px;font-weight:700;color:#334155;font-size:14px}
+.mobile-menu.open{display:block}
+
+/* ===== HERO ===== */
+.hero{background:linear-gradient(135deg,#0a1628 0%,#1a3a6b 40%,#1a56db 100%);overflow:hidden;position:relative}
+.hero::before{content:'';position:absolute;inset:0;background:url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");pointer-events:none}
+.hero-inner{max-width:1200px;margin:0 auto;padding:80px 24px;display:grid;grid-template-columns:1.1fr 0.9fr;gap:48px;align-items:center}
+.hero-eyebrow{display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.2);border-radius:999px;padding:8px 16px;color:#93c5fd;font-weight:700;font-size:13px;margin-bottom:20px}
+.hero h2{font-size:clamp(36px,5vw,60px);line-height:1.05;letter-spacing:-1.5px;color:#fff;margin-bottom:18px;font-weight:800}
+.hero h2 span{background:linear-gradient(90deg,#60a5fa,#38bdf8);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.hero p{font-size:17px;color:#cbd5e1;margin-bottom:28px;max-width:600px;line-height:1.7}
+.hero-cta{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:36px}
+.hero-chips{display:flex;gap:10px;flex-wrap:wrap}
+.hero-chip{display:inline-flex;align-items:center;gap:6px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.15);border-radius:999px;padding:6px 14px;color:#e2e8f0;font-size:13px;font-weight:600}
+.hero-visual{position:relative}
+.hero-card{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:28px;padding:20px;backdrop-filter:blur(10px)}
+.hero-img{width:100%;height:400px;object-fit:cover;border-radius:20px}
+.hero-float{position:absolute;left:-20px;bottom:40px;background:#fff;border-radius:20px;padding:16px 20px;box-shadow:var(--shadow2);min-width:190px}
+.hero-float-label{font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.6px;margin-bottom:4px}
+.hero-float-value{font-size:20px;font-weight:900;color:var(--navy)}
+.hero-float-sub{font-size:12px;color:var(--muted);margin-top:2px}
+.hero-float2{position:absolute;right:-10px;top:40px;background:linear-gradient(135deg,var(--blue),#0ea5e9);border-radius:18px;padding:14px 18px;box-shadow:0 12px 30px rgba(26,86,219,.35);color:#fff;min-width:160px}
+.hero-float2-label{font-size:11px;font-weight:700;opacity:.8;margin-bottom:3px}
+.hero-float2-value{font-size:18px;font-weight:900}
+
+/* ===== TRUST STRIP ===== */
+.trust{padding:28px 0}
+.trust-inner{max-width:1200px;margin:0 auto;padding:0 24px;display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.trust-card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:20px;display:flex;align-items:flex-start;gap:14px;box-shadow:0 2px 12px rgba(15,23,42,.04)}
+.trust-icon{width:44px;height:44px;border-radius:12px;background:#eff6ff;color:var(--blue);display:flex;align-items:center;justify-content:center;font-size:20px;flex-shrink:0}
+.trust-card h3{font-size:15px;font-weight:700;margin-bottom:4px}
+.trust-card p{font-size:13px;color:var(--muted);line-height:1.5}
+
+/* ===== SECTION COMMON ===== */
+section{padding:64px 0}
+.container{max-width:1200px;margin:0 auto;padding:0 24px}
+.section-header{margin-bottom:36px}
+.section-label{display:inline-flex;align-items:center;gap:6px;background:#eff6ff;color:var(--blue);border-radius:999px;padding:6px 14px;font-size:13px;font-weight:700;margin-bottom:12px}
+.section-header h2{font-size:clamp(28px,4vw,40px);font-weight:800;letter-spacing:-.5px;margin-bottom:10px}
+.section-header p{color:var(--muted);font-size:15px;max-width:620px}
+.section-top{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;margin-bottom:32px}
+
+/* ===== CATEGORY CARDS ===== */
+.cats{background:#fff;border-bottom:1px solid var(--border)}
+.cats-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:2px;background:var(--border)}
+.cat-card{background:#fff;padding:20px 16px;text-align:center;cursor:pointer;transition:.2s;border:none}
+.cat-card:hover,.cat-card.active{background:#eff6ff}
+.cat-card.active{box-shadow:inset 0 -3px 0 var(--blue)}
+.cat-icon{font-size:28px;margin-bottom:8px}
+.cat-name{font-size:13px;font-weight:700;color:var(--navy)}
+.cat-count{font-size:11px;color:var(--muted);margin-top:2px}
+
+/* ===== PRODUCTS ===== */
+.products-section{background:var(--bg)}
+.products-controls{display:flex;gap:12px;margin-bottom:24px;flex-wrap:wrap;align-items:center}
+.search-box{flex:1;min-width:220px;position:relative}
+.search-box input{width:100%;border:1.5px solid var(--border);border-radius:14px;background:#fff;padding:12px 16px 12px 44px;font-size:14px;outline:none;transition:.2s}
+.search-box input:focus{border-color:var(--blue);box-shadow:0 0 0 4px rgba(26,86,219,.08)}
+.search-icon{position:absolute;left:15px;top:50%;transform:translateY(-50%);color:var(--muted);font-size:16px}
+.sort-select{border:1.5px solid var(--border);border-radius:14px;background:#fff;padding:12px 16px;font-size:14px;font-weight:700;color:#334155;outline:none;cursor:pointer}
+.sort-select:focus{border-color:var(--blue)}
+.products-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.product-card{background:var(--card);border:1px solid var(--border);border-radius:24px;overflow:hidden;transition:.25s;cursor:pointer;position:relative}
+.product-card:hover{transform:translateY(-6px);box-shadow:var(--shadow2);border-color:transparent}
+.p-img-wrap{position:relative;height:230px;background:linear-gradient(135deg,#f1f5f9,#e2e8f0);overflow:hidden}
+.p-img-wrap img{width:100%;height:100%;object-fit:cover;transition:.4s}
+.product-card:hover .p-img-wrap img{transform:scale(1.06)}
+.p-badge{position:absolute;top:12px;left:12px;background:#fff;color:var(--navy);border-radius:999px;padding:5px 12px;font-size:11px;font-weight:800;box-shadow:0 4px 12px rgba(15,23,42,.12)}
+.p-stock{position:absolute;top:12px;right:12px;background:#dcfce7;color:#15803d;border-radius:999px;padding:5px 10px;font-size:11px;font-weight:700}
+.p-wishlist{position:absolute;bottom:12px;right:12px;width:36px;height:36px;border-radius:50%;background:#fff;border:none;cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:16px;box-shadow:0 4px 12px rgba(0,0,0,.1);transition:.2s;opacity:0}
+.product-card:hover .p-wishlist{opacity:1}
+.p-body{padding:18px}
+.p-meta{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
+.p-cat{background:#eff6ff;color:var(--blue);border-radius:999px;padding:4px 10px;font-size:11px;font-weight:700}
+.p-rating{font-size:13px;font-weight:700;color:#475569}
+.p-name{font-size:16px;font-weight:700;line-height:1.3;margin-bottom:6px}
+.p-desc{font-size:13px;color:var(--muted);line-height:1.5;min-height:40px}
+.p-price-row{display:flex;justify-content:space-between;align-items:center;margin-top:14px;gap:8px}
+.p-price{font-size:22px;font-weight:900;color:var(--navy)}
+.p-old{font-size:13px;color:#94a3b8;text-decoration:line-through;font-weight:600}
+.p-add{background:var(--navy);color:#fff;border:none;border-radius:12px;padding:10px 14px;font-size:13px;font-weight:700;cursor:pointer;transition:.2s;display:flex;align-items:center;gap:6px}
+.p-add:hover{background:var(--blue)}
+.no-results{text-align:center;padding:60px 24px;background:#fff;border-radius:24px;border:2px dashed var(--border);display:none}
+.no-results h3{font-size:20px;margin-bottom:8px}
+.no-results p{color:var(--muted)}
+
+/* ===== HOW TO ORDER ===== */
+.order-section{background:#fff}
+.steps-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;position:relative}
+.steps-grid::before{content:'';position:absolute;top:28px;left:10%;right:10%;height:2px;background:linear-gradient(90deg,var(--blue),#0ea5e9);z-index:0;display:block}
+.step-card{background:#fff;border:1.5px solid var(--border);border-radius:20px;padding:24px 20px;text-align:center;position:relative;z-index:1;transition:.2s}
+.step-card:hover{border-color:var(--blue);box-shadow:0 8px 24px rgba(26,86,219,.1)}
+.step-num{width:48px;height:48px;border-radius:16px;background:linear-gradient(135deg,var(--blue),#0ea5e9);color:#fff;font-weight:900;font-size:20px;display:flex;align-items:center;justify-content:center;margin:0 auto 14px;box-shadow:0 8px 20px rgba(26,86,219,.25)}
+.step-card h3{font-size:16px;font-weight:700;margin-bottom:6px}
+.step-card p{font-size:13px;color:var(--muted);line-height:1.5}
+
+/* ===== PAYMENT ===== */
+.payment-section{background:linear-gradient(135deg,var(--navy),#1e3a5f)}
+.payment-inner{display:grid;grid-template-columns:1.2fr .8fr;gap:40px;align-items:center}
+.payment-inner h2{font-size:clamp(26px,4vw,40px);font-weight:800;color:#fff;letter-spacing:-.5px;margin-bottom:12px}
+.payment-inner p{color:#94a3b8;line-height:1.7}
+.pay-methods{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:24px}
+.pay-method{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.14);border-radius:16px;padding:16px;text-align:center;color:#fff;transition:.2s}
+.pay-method:hover{background:rgba(255,255,255,.14)}
+.pay-method-icon{font-size:28px;margin-bottom:8px}
+.pay-method-name{font-size:14px;font-weight:700}
+.pay-method-sub{font-size:12px;color:#94a3b8;margin-top:2px}
+.pay-card-right{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.12);border-radius:24px;padding:28px}
+.pay-card-right h3{font-size:20px;font-weight:700;color:#fff;margin-bottom:16px}
+.pay-number{background:#fff;color:var(--navy);border-radius:14px;padding:14px;font-size:22px;font-weight:900;text-align:center;letter-spacing:.5px;margin-bottom:14px}
+.pay-note{font-size:13px;color:#94a3b8;line-height:1.6;text-align:center;margin-top:8px}
+.pay-wa-btn{display:flex;align-items:center;justify-content:center;gap:8px;background:var(--green2);color:#fff;border-radius:14px;padding:14px;font-weight:700;font-size:15px;margin-top:14px;transition:.2s}
+.pay-wa-btn:hover{background:var(--green)}
+
+/* ===== ABOUT / PC BUILD ===== */
+.about-section{background:var(--bg)}
+.about-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:48px;align-items:center}
+.about-img{height:440px;width:100%;object-fit:cover;border-radius:28px;box-shadow:var(--shadow2)}
+.about-label{display:inline-flex;align-items:center;gap:6px;background:#eff6ff;color:var(--blue);border-radius:999px;padding:6px 14px;font-size:13px;font-weight:700;margin-bottom:14px}
+.about-grid h2{font-size:clamp(26px,4vw,38px);font-weight:800;letter-spacing:-.5px;margin-bottom:14px}
+.about-grid p{color:var(--muted);line-height:1.7;margin-bottom:12px}
+.checks{display:grid;gap:10px;margin-top:16px}
+.check-item{display:flex;align-items:flex-start;gap:10px;font-size:14px;font-weight:600;color:#334155}
+.check-icon{color:var(--green);font-weight:900;flex-shrink:0;margin-top:1px}
+
+/* ===== PC BUILD BANNER ===== */
+.pc-build{background:linear-gradient(135deg,#1a56db 0%,#7c3aed 100%);border-radius:28px;padding:40px;display:grid;grid-template-columns:1fr auto;gap:24px;align-items:center;margin-top:48px}
+.pc-build h2{font-size:clamp(24px,3vw,34px);font-weight:800;color:#fff;margin-bottom:10px}
+.pc-build p{color:rgba(255,255,255,.8);font-size:15px}
+.pc-build-cta{display:flex;flex-direction:column;gap:10px;align-items:flex-end}
+
+/* ===== CONTACT ===== */
+.contact-section{background:#fff}
+.contact-card{background:linear-gradient(135deg,var(--navy),#1a3a6b);border-radius:28px;padding:40px;display:grid;grid-template-columns:1.1fr .9fr;gap:32px;align-items:center}
+.contact-label{display:inline-flex;align-items:center;gap:6px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.2);border-radius:999px;padding:6px 14px;font-size:13px;font-weight:700;color:#93c5fd;margin-bottom:14px}
+.contact-card h2{font-size:clamp(22px,3vw,34px);font-weight:800;color:#fff;margin-bottom:10px}
+.contact-card p{color:#94a3b8;line-height:1.7}
+.contact-cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:20px}
+.support-lines{display:grid;gap:12px}
+.support-line{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.12);border-radius:16px;padding:16px;color:#fff;transition:.2s;display:block}
+.support-line:hover{background:rgba(255,255,255,.14)}
+.support-line-label{font-size:11px;font-weight:700;color:#93c5fd;text-transform:uppercase;letter-spacing:.6px;margin-bottom:4px}
+.support-line-value{font-size:15px;font-weight:700}
+
+/* ===== FOOTER ===== */
+.footer{background:linear-gradient(135deg,#060e1d,#0f172a,#0a1a3a);color:#cbd5e1;padding:0;border-top:1px solid rgba(255,255,255,.06)}
+.footer-main{max-width:1200px;margin:0 auto;padding:48px 24px 24px;display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:32px}
+.footer-brand h3{font-size:24px;font-weight:800;color:#fff;margin-bottom:4px}
+.footer-brand p{font-size:13px;color:#60a5fa;font-weight:600;margin-bottom:14px}
+.footer-brand-desc{font-size:14px;color:#94a3b8;line-height:1.7;margin-bottom:16px}
+.footer-tags{display:flex;gap:8px;flex-wrap:wrap}
+.footer-tag{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.1);border-radius:999px;padding:5px 12px;font-size:12px;color:#e2e8f0;font-weight:600}
+.footer-col h4{font-size:16px;font-weight:700;color:#fff;margin-bottom:14px;display:flex;align-items:center;gap:8px}
+.footer-col a{display:block;font-size:14px;color:#94a3b8;margin-bottom:10px;transition:.2s}
+.footer-col a:hover{color:#fff}
+.footer-col p{font-size:14px;color:#94a3b8;line-height:1.6;margin-bottom:8px}
+.footer-wa{display:inline-flex;align-items:center;gap:8px;background:var(--green2);color:#fff;border-radius:12px;padding:11px 16px;font-weight:700;font-size:14px;margin-top:6px;transition:.2s}
+.footer-wa:hover{background:var(--green)}
+.footer-bottom{max-width:1200px;margin:0 auto;padding:16px 24px 24px;border-top:1px solid rgba(255,255,255,.06);display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;font-size:13px;color:#64748b}
+.footer-bottom strong{color:#94a3b8}
+
+/* ===== CART DRAWER ===== */
+.overlay{position:fixed;inset:0;background:rgba(10,22,40,.55);z-index:200;display:none;backdrop-filter:blur(2px)}
+.overlay.open{display:block}
+.drawer{position:fixed;top:0;right:-460px;width:min(460px,100%);height:100vh;background:#fff;z-index:210;box-shadow:-20px 0 50px rgba(10,22,40,.2);transition:.3s cubic-bezier(.4,0,.2,1);display:flex;flex-direction:column}
+.drawer.open{right:0}
+.cart-header{padding:20px 22px;border-bottom:1px solid var(--border);display:flex;justify-content:space-between;align-items:center}
+.cart-header h3{font-size:22px;font-weight:800}
+.cart-header p{font-size:13px;color:var(--muted);margin-top:2px}
+.close-btn{width:40px;height:40px;border-radius:12px;border:1.5px solid var(--border);background:#fff;cursor:pointer;font-size:20px;display:flex;align-items:center;justify-content:center;transition:.2s}
+.close-btn:hover{background:var(--bg)}
+.cart-body{flex:1;overflow-y:auto;padding:16px 22px}
+.cart-item{display:grid;grid-template-columns:72px 1fr auto;gap:12px;padding:14px;background:var(--bg);border-radius:16px;margin-bottom:10px;align-items:center}
+.cart-item-img{width:72px;height:72px;border-radius:12px;object-fit:cover;background:#e2e8f0}
+.cart-item-name{font-size:14px;font-weight:700;line-height:1.3;margin-bottom:4px}
+.cart-item-price{font-size:15px;font-weight:900;color:var(--blue)}
+.cart-qty{display:flex;align-items:center;gap:8px;margin-top:8px}
+.qty-btn{width:28px;height:28px;border-radius:8px;border:1.5px solid var(--border);background:#fff;cursor:pointer;font-weight:900;font-size:15px;display:flex;align-items:center;justify-content:center;transition:.2s}
+.qty-btn:hover{background:var(--blue);color:#fff;border-color:var(--blue)}
+.qty-val{font-weight:700;min-width:20px;text-align:center}
+.remove-btn{color:#94a3b8;cursor:pointer;font-size:18px;padding:4px;transition:.2s;background:none;border:none}
+.remove-btn:hover{color:#ef4444}
+.cart-empty{text-align:center;padding:60px 20px;color:var(--muted)}
+.cart-empty-icon{font-size:48px;margin-bottom:12px}
+.cart-footer{padding:18px 22px;border-top:1px solid var(--border);background:#fafafa}
+.cart-line{display:flex;justify-content:space-between;font-size:14px;font-weight:600;color:#475569;margin-bottom:8px}
+.cart-total{display:flex;justify-content:space-between;font-size:22px;font-weight:900;padding-top:12px;margin-top:4px;border-top:1px solid var(--border)}
+.cart-note{font-size:12px;color:var(--muted);margin:10px 0;line-height:1.5}
+.wa-order-btn{width:100%;background:var(--green2);color:#fff;border:none;border-radius:14px;padding:15px;font-size:15px;font-weight:800;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:8px;transition:.2s;margin-top:10px}
+.wa-order-btn:hover{background:var(--green)}
+
+/* ===== TOAST ===== */
+.toast{position:fixed;left:50%;bottom:28px;transform:translateX(-50%) translateY(120px);background:var(--navy);color:#fff;padding:12px 24px;border-radius:14px;z-index:999;font-weight:700;font-size:14px;transition:.3s;box-shadow:var(--shadow2);display:flex;align-items:center;gap:8px}
+.toast.show{transform:translateX(-50%) translateY(0)}
+
+/* ===== RESPONSIVE ===== */
+@media(max-width:1024px){
+  .hero-inner{grid-template-columns:1fr;gap:36px;padding:60px 24px}
+  .hero-visual{display:none}
+  .trust-inner{grid-template-columns:repeat(2,1fr)}
+  .products-grid{grid-template-columns:repeat(2,1fr)}
+  .steps-grid{grid-template-columns:repeat(2,1fr)}
+  .steps-grid::before{display:none}
+  .payment-inner{grid-template-columns:1fr}
+  .about-grid{grid-template-columns:1fr}
+  .about-img{height:300px}
+  .contact-card{grid-template-columns:1fr}
+  .footer-main{grid-template-columns:1fr 1fr}
+  .cats-grid{grid-template-columns:repeat(3,1fr)}
+}
+@media(max-width:768px){
+  .topbar-inner{justify-content:center;text-align:center}
+  .topbar-left{display:none}
+  .nav-links{display:none}
+  .hamburger{display:flex}
+  .hero h2{font-size:34px}
+  .hero p{font-size:15px}
+  .hero-cta .btn{width:100%}
+  .hero-cta{display:grid;grid-template-columns:1fr}
+  .trust-inner{grid-template-columns:1fr}
+  .products-grid{grid-template-columns:1fr}
+  .steps-grid{grid-template-columns:1fr}
+  .footer-main{grid-template-columns:1fr}
+  .cats-grid{grid-template-columns:repeat(2,1fr)}
+  .pc-build{grid-template-columns:1fr}
+  .pc-build-cta{align-items:flex-start}
+  section{padding:44px 0}
+}
+@media(max-width:480px){
+  .container{padding:0 14px}
+  .topbar-links{flex-direction:column;gap:6px;width:100%}
+  .topbar-link{width:100%;justify-content:center}
+  .nav{padding:0 14px}
+  .products-controls{flex-direction:column}
+  .search-box{min-width:100%}
+  .sort-select{width:100%}
+}
+</style>
+</head>
+<body>
+
+<!-- TOP BAR -->
+<div class="topbar">
+  <div class="topbar-inner">
+    <div class="topbar-left">
+      <span>🏪 Store at Savar Bus-Stand | Online Support 24/7</span>
+    </div>
+    <div class="topbar-links">
+      <a class="topbar-link" href="https://wa.me/8801727730904?text=Hello%20CircuitNest%20BD!%20I%20need%20help." target="_blank" rel="noopener">💬 WhatsApp: 01727730904</a>
+      <a class="topbar-link" href="mailto:circuitnestbd@gmail.com">✉ circuitnestbd@gmail.com</a>
+      <a class="topbar-link" href="https://maps.google.com/?q=Utshob+Plaza+Savar+Bus+Stand+Dhaka" target="_blank" rel="noopener">📍 216 Utshob Plaza, Savar</a>
+    </div>
+  </div>
+</div>
+
+<!-- HEADER -->
+<header class="header">
+  <div class="nav">
+    <a href="#home" class="brand">
+      <div class="brand-logo">CN</div>
+      <div class="brand-text">
+        <h1>CircuitNest BD</h1>
+        <p>Tech Accessories & Gadgets Hub</p>
+      </div>
+    </a>
+    <nav class="nav-links">
+      <a href="#categories">Products</a>
+      <a href="#order">How to Order</a>
+      <a href="#payment">Payment</a>
+      <a href="#pcbuild">PC Build</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="btn btn-primary" id="openCart">🛒 Cart <span class="cart-badge" id="cartCount">0</span></button>
+      <button class="hamburger" id="menuBtn">☰</button>
+    </div>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#categories">📦 Products</a>
+    <a href="#order">📋 How to Order</a>
+    <a href="#payment">💳 Payment</a>
+    <a href="#pcbuild">🖥️ PC Build</a>
+    <a href="#contact">📞 Contact</a>
+    <a href="https://wa.me/8801727730904" target="_blank" rel="noopener">💬 WhatsApp: 01727730904</a>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-inner">
+    <div class="hero-left">
+      <div class="hero-eyebrow">⚡ Tech Accessories & Gadgets Hub — Savar, Dhaka</div>
+      <h2>Your One-Stop Shop for <span>Smart Tech</span> in Bangladesh</h2>
+      <p>Mid-range phones, CCTV cameras, computer accessories, graphics cards & complete PC build solutions — all at the best prices with WhatsApp ordering support.</p>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="#categories" style="font-size:15px;padding:14px 28px">🛍️ Shop Now</a>
+        <a class="btn btn-green" href="https://wa.me/8801727730904?text=Hello%20CircuitNest%20BD!%20I%20want%20to%20order." target="_blank" rel="noopener" style="font-size:15px;padding:14px 28px">💬 Order on WhatsApp</a>
+      </div>
+      <div class="hero-chips">
+        <span class="hero-chip">📱 Phones</span>
+        <span class="hero-chip">📷 CCTV</span>
+        <span class="hero-chip">🎮 Graphics Cards</span>
+        <span class="hero-chip">🖥️ PC Build</span>
+        <span class="hero-chip">🖱️ Accessories</span>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-card">
+        <img class="hero-img" src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1200&auto=format&fit=crop" alt="Tech gadgets and accessories"/>
+      </div>
+      <div class="hero-float">
+        <div class="hero-float-label">Best Seller</div>
+        <div class="hero-float-value">CCTV Cameras</div>
+        <div class="hero-float-sub">Budget → Premium</div>
+      </div>
+      <div class="hero-float2">
+        <div class="hero-float2-label">✅ Available Now</div>
+        <div class="hero-float2-value">PC Build Service</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TRUST STRIP -->
+<div class="trust">
+  <div class="trust-inner">
+    <div class="trust-card">
+      <div class="trust-icon">🚚</div>
+      <div>
+        <h3>Fast Delivery</h3>
+        <p>Store pickup or home delivery. Charge confirmed before payment.</p>
+      </div>
+    </div>
+    <div class="trust-card">
+      <div class="trust-icon">💳</div>
+      <div>
+        <h3>Easy Payment</h3>
+        <p>bKash, Nagad, Bank Transfer, Cash on Delivery.</p>
+      </div>
+    </div>
+    <div class="trust-card">
+      <div class="trust-icon">🛡️</div>
+      <div>
+        <h3>Genuine Products</h3>
+        <p>Brand warranty on all CCTV cameras, phones & accessories.</p>
+      </div>
+    </div>
+    <div class="trust-card">
+      <div class="trust-icon">💬</div>
+      <div>
+        <h3>WhatsApp Support</h3>
+        <p>Order, confirm & get help via WhatsApp: 01727730904.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- CATEGORIES -->
+<section class="cats" id="categories">
+  <div class="cats-grid" id="catGrid">
+    <button class="cat-card active" data-cat="All" onclick="filterCat('All',this)">
+      <div class="cat-icon">🏪</div>
+      <div class="cat-name">All Products</div>
+      <div class="cat-count" id="countAll">0 items</div>
+    </button>
+    <button class="cat-card" data-cat="Phones" onclick="filterCat('Phones',this)">
+      <div class="cat-icon">📱</div>
+      <div class="cat-name">Mid-Range Phones</div>
+      <div class="cat-count" id="countPhones">0 items</div>
+    </button>
+    <button class="cat-card" data-cat="CCTV" onclick="filterCat('CCTV',this)">
+      <div class="cat-icon">📷</div>
+      <div class="cat-name">CCTV Cameras</div>
+      <div class="cat-count" id="countCCTV">0 items</div>
+    </button>
+    <button class="cat-card" data-cat="Graphics" onclick="filterCat('Graphics',this)">
+      <div class="cat-icon">🎮</div>
+      <div class="cat-name">Graphics Cards</div>
+      <div class="cat-count" id="countGraphics">0 items</div>
+    </button>
+    <button class="cat-card" data-cat="Accessories" onclick="filterCat('Accessories',this)">
+      <div class="cat-icon">🖱️</div>
+      <div class="cat-name">PC Accessories</div>
+      <div class="cat-count" id="countAccessories">0 items</div>
+    </button>
+  </div>
+</section>
+
+<!-- PRODUCTS -->
+<section class="products-section">
+  <div class="container">
+    <div class="section-top">
+      <div class="section-header" style="margin-bottom:0">
+        <div class="section-label">🛍️ Our Products</div>
+        <h2>Featured Products</h2>
+        <p>Genuine products at best prices. Confirm stock via WhatsApp before payment.</p>
+      </div>
+    </div>
+    <div class="products-controls">
+      <div class="search-box">
+        <span class="search-icon">🔍</span>
+        <input type="search" id="searchInput" placeholder="Search phone, camera, keyboard, GPU..." oninput="renderProducts()"/>
+      </div>
+      <select class="sort-select" id="sortSelect" onchange="renderProducts()">
+        <option value="default">Sort: Featured</option>
+        <option value="low-high">Price: Low → High</option>
+        <option value="high-low">Price: High → Low</option>
+        <option value="rating">Top Rated</option>
+      </select>
+    </div>
+    <div class="products-grid" id="productsGrid"></div>
+    <div class="no-results" id="noResults">
+      <div style="font-size:48px;margin-bottom:12px">🔍</div>
+      <h3>No products found</h3>
+      <p>Try a different keyword or category.</p>
+    </div>
+  </div>
+</section>
+
+<!-- HOW TO ORDER -->
+<section class="order-section" id="order">
+  <div class="container">
+    <div class="section-header" style="text-align:center">
+      <div class="section-label" style="margin:0 auto 12px">📋 Order Process</div>
+      <h2>How to Order — Super Easy!</h2>
+      <p>Simple 4-step manual order system. No registration needed.</p>
+    </div>
+    <div class="steps-grid">
+      <div class="step-card">
+        <div class="step-num">1</div>
+        <h3>Browse & Add to Cart</h3>
+        <p>Find your product, click "Add to Cart". Check price and details.</p>
+      </div>
+      <div class="step-card">
+        <div class="step-num">2</div>
+        <h3>Send via WhatsApp</h3>
+        <p>Tap "Send Order on WhatsApp" — your cart details go straight to us.</p>
+      </div>
+      <div class="step-card">
+        <div class="step-num">3</div>
+        <h3>Confirm Details</h3>
+        <p>We confirm stock, delivery charge & payment number before you pay.</p>
+      </div>
+      <div class="step-card">
+        <div class="step-num">4</div>
+        <h3>Pay & Receive</h3>
+        <p>Pay via bKash/Nagad/COD. We pack & deliver or hold for pickup.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PAYMENT -->
+<section class="payment-section" id="payment">
+  <div class="container">
+    <div class="payment-inner">
+      <div>
+        <h2>Flexible & Secure Payment Options</h2>
+        <p>We don't use an automatic payment gateway — your order is confirmed manually via WhatsApp before any payment, so you always know exactly what you're paying.</p>
+        <div class="pay-methods">
+          <div class="pay-method"><div class="pay-method-icon">💗</div><div class="pay-method-name">bKash</div><div class="pay-method-sub">Most Popular</div></div>
+          <div class="pay-method"><div class="pay-method-icon">🟠</div><div class="pay-method-name">Nagad</div><div class="pay-method-sub">Fast Transfer</div></div>
+          <div class="pay-method"><div class="pay-method-icon">🏦</div><div class="pay-method-name">Bank Transfer</div><div class="pay-method-sub">For larger orders</div></div>
+          <div class="pay-method"><div class="pay-method-icon">💵</div><div class="pay-method-name">Cash on Delivery</div><div class="pay-method-sub">Selected areas</div></div>
+        </div>
+      </div>
+      <div class="pay-card-right">
+        <h3>📞 WhatsApp & bKash Number</h3>
+        <div class="pay-number">01727730904</div>
+        <p class="pay-note">⚠️ Always confirm your order via WhatsApp <strong style="color:#e2e8f0">before</strong> sending any payment.</p>
+        <a class="pay-wa-btn" href="https://wa.me/8801727730904?text=Hello%20CircuitNest%20BD!%20I%20want%20to%20confirm%20my%20order." target="_blank" rel="noopener">
+          💬 Chat with Us on WhatsApp
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT + PC BUILD -->
+<section class="about-section" id="pcbuild">
+  <div class="container">
+    <div class="about-grid">
+      <div>
+        <img class="about-img" src="https://images.unsplash.com/photo-1593640495253-23196b27a87f?q=80&w=1200&auto=format&fit=crop" alt="PC components and build"/>
+      </div>
+      <div>
+        <div class="about-label">🖥️ About CircuitNest BD</div>
+        <h2>Your Trusted Tech Partner in Savar, Dhaka</h2>
+        <p>CircuitNest BD is your go-to shop for genuine tech products — from budget-friendly mid-range phones to high-end CCTV systems and complete PC build services.</p>
+        <p>Managed by <strong>Md. Tawhid Hossain</strong>, we operate from 216, Utshob Plaza (1st Floor), Savar Bazar Road, Savar Bus-Stand, Savar, Dhaka-1340.</p>
+        <div class="checks">
+          <div class="check-item"><span class="check-icon">✓</span> Mid-range & budget-friendly phones — latest models</div>
+          <div class="check-item"><span class="check-icon">✓</span> Budget, mid-range & premium CCTV cameras</div>
+          <div class="check-item"><span class="check-icon">✓</span> Graphics cards & PC components</div>
+          <div class="check-item"><span class="check-icon">✓</span> Full PC build & assembly service</div>
+          <div class="check-item"><span class="check-icon">✓</span> Computer accessories — keyboard, mouse, headphone & more</div>
+          <div class="check-item"><span class="check-icon">✓</span> Genuine products with brand warranty</div>
+        </div>
+      </div>
+    </div>
+    <div class="pc-build">
+      <div>
+        <h2>🖥️ Need a Custom PC Build?</h2>
+        <p>Tell us your budget and requirements. We'll select the best components and assemble your dream PC — gaming, office, or workstation.</p>
+      </div>
+      <div class="pc-build-cta">
+        <a class="btn btn-primary" style="background:#fff;color:var(--blue);font-size:15px;padding:14px 24px" href="https://wa.me/8801727730904?text=Hello!%20I%20want%20a%20custom%20PC%20build.%20My%20budget%20is%20" target="_blank" rel="noopener">💬 Get a Quote</a>
+        <a class="btn btn-ghost" style="font-size:14px;padding:12px 20px" href="#products">Browse Components</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact-section" id="contact">
+  <div class="container">
+    <div class="contact-card">
+      <div>
+        <div class="contact-label">📞 Customer Support</div>
+        <h2>Need Price, Stock or Delivery Info?</h2>
+        <p>Send us your budget, product name, and delivery area. We'll confirm everything before you pay — no surprises.</p>
+        <div class="contact-cta">
+          <a class="btn btn-green" href="https://wa.me/8801727730904?text=Hello%20CircuitNest%20BD!%20I%20need%20help." target="_blank" rel="noopener" style="font-size:15px;padding:14px 24px">💬 WhatsApp: 01727730904</a>
+          <a class="btn" href="mailto:circuitnestbd@gmail.com" style="background:rgba(255,255,255,.12);color:#fff;border:1px solid rgba(255,255,255,.25);font-size:15px;padding:14px 24px">✉ Email Us</a>
+        </div>
+      </div>
+      <div class="support-lines">
+        <a class="support-line" href="https://wa.me/8801727730904" target="_blank" rel="noopener">
+          <div class="support-line-label">WhatsApp / Phone</div>
+          <div class="support-line-value">01727730904</div>
+        </a>
+        <a class="support-line" href="mailto:circuitnestbd@gmail.com">
+          <div class="support-line-label">Email</div>
+          <div class="support-line-value">circuitnestbd@gmail.com</div>
+        </a>
+        <a class="support-line" href="https://maps.google.com/?q=Utshob+Plaza+Savar+Bus+Stand+Dhaka" target="_blank" rel="noopener">
+          <div class="support-line-label">Store Address</div>
+          <div class="support-line-value">216, Utshob Plaza, Savar Bazar Road, Savar Bus-Stand, Dhaka-1340</div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer-main">
+    <div class="footer-brand">
+      <h3>CircuitNest BD</h3>
+      <p>Tech Accessories & Gadgets Hub</p>
+      <p class="footer-brand-desc">Your one-stop destination for phones, CCTV cameras, graphics cards, PC components and computer accessories in Savar, Dhaka — with WhatsApp ordering and manual payment.</p>
+      <div class="footer-tags">
+        <span class="footer-tag">📱 Phones</span>
+        <span class="footer-tag">📷 CCTV</span>
+        <span class="footer-tag">🎮 GPU</span>
+        <span class="footer-tag">🖥️ PC Build</span>
+        <span class="footer-tag">🖱️ Accessories</span>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>📞 Contact Us</h4>
+      <a href="https://wa.me/8801727730904" target="_blank" rel="noopener">💬 WhatsApp: 01727730904</a>
+      <a href="mailto:circuitnestbd@gmail.com">✉ circuitnestbd@gmail.com</a>
+      <p style="margin-top:8px">📍 216, Utshob Plaza (1st Floor), Savar Bazar Road, Savar Bus-Stand, Savar, Dhaka-1340, Bangladesh</p>
+      <a class="footer-wa" href="https://wa.me/8801727730904?text=Hello%20CircuitNest%20BD!" target="_blank" rel="noopener">💬 Order on WhatsApp</a>
+    </div>
+    <div class="footer-col">
+      <h4>🛒 Order & Payment</h4>
+      <p>✓ Orders confirmed through <strong style="color:#fff">WhatsApp</strong></p>
+      <p>✓ Payment: <strong style="color:#fff">bKash, Nagad, Bank Transfer, Cash on Delivery</strong></p>
+      <p>✓ Confirm stock & delivery charge before payment</p>
+      <p style="margin-top:12px;font-size:12px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.08);border-radius:12px;padding:12px;color:#94a3b8">⚠️ Always confirm via WhatsApp before sending any payment for your safety.</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2024–2026 <strong>CircuitNest BD</strong>. All rights reserved. Managed by Md. Tawhid Hossain.</span>
+    <span>Store: Utshob Plaza, Savar Bus-Stand, Dhaka</span>
+  </div>
+</footer>
+
+<!-- OVERLAY & CART DRAWER -->
+<div class="overlay" id="overlay"></div>
+<aside class="drawer" id="drawer">
+  <div class="cart-header">
+    <div>
+      <h3>🛒 Your Cart</h3>
+      <p>Order via WhatsApp after adding items</p>
+    </div>
+    <button class="close-btn" id="closeCart">×</button>
+  </div>
+  <div class="cart-body" id="cartBody"></div>
+  <div class="cart-footer" id="cartFooter" style="display:none">
+    <div class="cart-line"><span>Subtotal</span><span id="cartSubtotal">৳0</span></div>
+    <div class="cart-line"><span>Delivery</span><span>Confirmed via WhatsApp</span></div>
+    <div class="cart-total"><span>Total</span><span id="cartTotal">৳0</span></div>
+    <p class="cart-note">⚠️ Payment is NOT automatic. We confirm stock, delivery charge & bKash/Nagad number via WhatsApp before payment.</p>
+    <button class="wa-order-btn" id="sendOrderWa">💬 Send Order on WhatsApp</button>
+  </div>
+</aside>
+
+<div class="toast" id="toast"></div>
+
+<script>
+const WA = '8801727730904';
+const products = [
+  // === MID-RANGE PHONES ===
+  {id:1,cat:'Phones',name:'Samsung Galaxy A15 5G (8/128GB)',badge:'New',price:18500,oldPrice:19999,rating:4.7,stock:'In Stock',desc:'6.5" Super AMOLED, 50MP triple camera, 5000mAh battery, 5G ready.',img:'https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?q=80&w=800&auto=format&fit=crop'},
+  {id:2,cat:'Phones',name:'Samsung Galaxy A35 5G (8/256GB)',badge:'Popular',price:28500,oldPrice:31000,rating:4.8,stock:'In Stock',desc:'6.6" Super AMOLED+ 120Hz, 50MP OIS camera, IP67 rated, 5000mAh.',img:'https://images.unsplash.com/photo-1592750475338-74b7b21085ab?q=80&w=800&auto=format&fit=crop'},
+  {id:3,cat:'Phones',name:'Xiaomi Redmi Note 13 Pro (8/256GB)',badge:'Best Value',price:22000,oldPrice:24500,rating:4.6,stock:'In Stock',desc:'200MP ISOCELL camera, 6.67" AMOLED 120Hz, 67W turbo charging.',img:'https://images.unsplash.com/photo-1585060544812-6b45742d762f?q=80&w=800&auto=format&fit=crop'},
+  {id:4,cat:'Phones',name:'Realme 12 Pro+ 5G (12/256GB)',badge:'5G',price:27000,oldPrice:30000,rating:4.5,stock:'In Stock',desc:'50MP Sony IMX890 OIS, 6.7" curved AMOLED, 67W SuperVOOC.',img:'https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?q=80&w=800&auto=format&fit=crop'},
+  {id:5,cat:'Phones',name:'Infinix Note 40 Pro (12/256GB)',badge:'Budget Pick',price:16500,oldPrice:18000,rating:4.4,stock:'In Stock',desc:'6.78" AMOLED 144Hz, 108MP camera, 70W fast charging, 5000mAh.',img:'https://images.unsplash.com/photo-1598327105666-5b89351aff97?q=80&w=800&auto=format&fit=crop'},
+  {id:6,cat:'Phones',name:'POCO X6 Pro 5G (12/256GB)',badge:'Gaming Phone',price:26000,oldPrice:29000,rating:4.7,stock:'In Stock',desc:'Dimensity 8300 Ultra, 6.67" AMOLED 144Hz, 64MP camera, 67W.',img:'https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?q=80&w=800&auto=format&fit=crop'},
+
+  // === BUDGET CCTV ===
+  {id:7,cat:'CCTV',name:'Dahua 2MP FHD Bullet CCTV Camera',badge:'Budget CCTV',price:1490,oldPrice:1700,rating:4.5,stock:'In Stock',desc:'2MP FHD 1080P, 3.6mm lens, 20m IR range, IP67 weatherproof.',img:'https://images.unsplash.com/photo-1557597774-9d273605dfa9?q=80&w=800&auto=format&fit=crop'},
+  {id:8,cat:'CCTV',name:'Dahua 2MP Dome CCTV Camera (Indoor)',badge:'Budget CCTV',price:1490,oldPrice:1680,rating:4.3,stock:'In Stock',desc:'2MP FHD dome camera, ideal for home and small office monitoring.',img:'https://images.unsplash.com/photo-1504711434969-e33886168f5c?q=80&w=800&auto=format&fit=crop'},
+  {id:9,cat:'CCTV',name:'Hikvision 2MP Bullet Camera (EXIR 30m)',badge:'Budget CCTV',price:1550,oldPrice:1780,rating:4.6,stock:'In Stock',desc:'2MP FHD bullet, EXIR smart IR 30m, 3.6mm fixed lens, metal body.',img:'https://images.unsplash.com/photo-1582139329536-e7284fece509?q=80&w=800&auto=format&fit=crop'},
+  {id:10,cat:'CCTV',name:'Dahua 2MP Smart Dual Light Audio Camera',badge:'Audio',price:1650,oldPrice:1880,rating:4.7,stock:'In Stock',desc:'2MP dual light, built-in microphone, IP67 body, multi-format output.',img:'https://images.unsplash.com/photo-1557597774-9d273605dfa9?q=80&w=800&auto=format&fit=crop'},
+  {id:11,cat:'CCTV',name:'Hikvision 5MP Mini Bullet Audio Camera',badge:'5MP',price:1700,oldPrice:1950,rating:4.5,stock:'In Stock',desc:'5MP audio mini bullet camera, IP67 protection, EXIR night vision up to 30m.',img:'https://images.unsplash.com/photo-1504711434969-e33886168f5c?q=80&w=800&auto=format&fit=crop'},
+  {id:12,cat:'CCTV',name:'Dahua 2MP Eyeball Smart Dual Light Camera',badge:'Eyeball',price:1600,oldPrice:1840,rating:4.6,stock:'In Stock',desc:'2MP CMOS eyeball with smart dual light illumination, 25m range.',img:'https://images.unsplash.com/photo-1582139329536-e7284fece509?q=80&w=800&auto=format&fit=crop'},
+
+  // === MID-RANGE CCTV ===
+  {id:13,cat:'CCTV',name:'Hikvision 2K 3MP Hybrid Light Audio Camera',badge:'2K Audio',price:2000,oldPrice:2320,rating:4.4,stock:'In Stock',desc:'3MP 2K hybrid light audio mini bullet camera, full-color night mode.',img:'https://images.unsplash.com/photo-1557597774-9d273605dfa9?q=80&w=800&auto=format&fit=crop'},
+  {id:14,cat:'CCTV',name:'Dahua 2MP Smart Illumination Bullet Camera',badge:'Smart Light',price:2390,oldPrice:2750,rating:4.8,stock:'In Stock',desc:'2MP bullet with smart illumination, indoor/outdoor security.',img:'https://images.unsplash.com/photo-1504711434969-e33886168f5c?q=80&w=800&auto=format&fit=crop'},
+  {id:15,cat:'CCTV',name:'Hikvision 2MP ColorVu Audio Mini Bullet',badge:'ColorVu',price:2470,oldPrice:2810,rating:4.7,stock:'In Stock',desc:'2MP ColorVu audio mini bullet — full color imaging even at night.',img:'https://images.unsplash.com/photo-1582139329536-e7284fece509?q=80&w=800&auto=format&fit=crop'},
+  {id:16,cat:'CCTV',name:'Hikvision 3MP Dual Light Audio Dome Camera',badge:'Dome Pick',price:2000,oldPrice:2200,rating:4.5,stock:'In Stock',desc:'3MP dual-light audio dome camera for shops and offices.',img:'https://images.unsplash.com/photo-1557597774-9d273605dfa9?q=80&w=800&auto=format&fit=crop'},
+
+  // === PREMIUM CCTV ===
+  {id:17,cat:'CCTV',name:'Hikvision 2MP ColorVu Smart Dome Camera',badge:'Premium',price:2950,oldPrice:3400,rating:4.8,stock:'In Stock',desc:'2MP ColorVu dual-light dome — vivid night color with built-in mic.',img:'https://images.unsplash.com/photo-1504711434969-e33886168f5c?q=80&w=800&auto=format&fit=crop'},
+  {id:18,cat:'CCTV',name:'Dahua 4MP Dual Light Smart Bullet Camera',badge:'4MP',price:3200,oldPrice:3700,rating:4.9,stock:'In Stock',desc:'4MP dual-light smart bullet, IR + warm light, AI-powered detection.',img:'https://images.unsplash.com/photo-1582139329536-e7284fece509?q=80&w=800&auto=format&fit=crop'},
+  {id:19,cat:'CCTV',name:'Hikvision 5MP ColorVu Turret Camera (2.8mm)',badge:'Best CCTV',price:3500,oldPrice:4000,rating:4.9,stock:'In Stock',desc:'5MP ColorVu turret, 24/7 full-color imaging, IP67+IK10 rated.',img:'https://images.unsplash.com/photo-1557597774-9d273605dfa9?q=80&w=800&auto=format&fit=crop'},
+
+  // === GRAPHICS CARDS ===
+  {id:20,cat:'Graphics',name:'Colorful GeForce RTX 4060 NB DUO 8GB',badge:'Best Seller',price:44000,oldPrice:48000,rating:4.8,stock:'In Stock',desc:'RTX 4060 8GB GDDR6, DLSS 3, Ray Tracing, 4K gaming capable.',img:'https://images.unsplash.com/photo-1591488320449-011701bb6704?q=80&w=800&auto=format&fit=crop'},
+  {id:21,cat:'Graphics',name:'MSI GeForce RTX 4060 Ti Ventus 2X 16GB',badge:'16GB VRAM',price:62000,oldPrice:68000,rating:4.9,stock:'In Stock',desc:'RTX 4060 Ti 16GB, DLSS 3.5, perfect for content creation & gaming.',img:'https://images.unsplash.com/photo-1555680202-c86f0e12f086?q=80&w=800&auto=format&fit=crop'},
+  {id:22,cat:'Graphics',name:'RX 7600 XT Gaming OC 16GB GDDR6',badge:'AMD Value',price:42000,oldPrice:46000,rating:4.6,stock:'In Stock',desc:'RX 7600 XT 16GB, FSR 3, great for 1080p and 1440p gaming.',img:'https://images.unsplash.com/photo-1591488320449-011701bb6704?q=80&w=800&auto=format&fit=crop'},
+  {id:23,cat:'Graphics',name:'Colorful GeForce GTX 1650 4GB GDDR6',badge:'Budget GPU',price:14000,oldPrice:16000,rating:4.4,stock:'In Stock',desc:'GTX 1650 4GB GDDR6, entry-level gaming & office workstation GPU.',img:'https://images.unsplash.com/photo-1555680202-c86f0e12f086?q=80&w=800&auto=format&fit=crop'},
+
+  // === PC ACCESSORIES ===
+  {id:24,cat:'Accessories',name:'Mechanical Gaming Keyboard (RGB Backlit)',badge:'Gaming',price:2800,oldPrice:3200,rating:4.6,stock:'In Stock',desc:'Blue/Red switch mechanical keyboard, 104-key, anti-ghosting, RGB.',img:'https://images.unsplash.com/photo-1587829741301-dc798b83add3?q=80&w=800&auto=format&fit=crop'},
+  {id:25,cat:'Accessories',name:'Logitech G102 Gaming Mouse (Lightsync)',badge:'Popular',price:1800,oldPrice:2100,rating:4.8,stock:'In Stock',desc:'8000 DPI optical sensor, 6 buttons, RGB Lightsync, lightweight 85g.',img:'https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?q=80&w=800&auto=format&fit=crop'},
+  {id:26,cat:'Accessories',name:'27" FHD IPS Monitor 165Hz (Gaming)',badge:'165Hz',price:18500,oldPrice:21000,rating:4.7,stock:'In Stock',desc:'27" FHD 1080P IPS, 165Hz, 1ms MPRT, AMD FreeSync, HDMI+DP.',img:'https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=800&auto=format&fit=crop'},
+  {id:27,cat:'Accessories',name:'Wireless Bluetooth Headphone (Studio Pro)',badge:'Audio',price:2500,oldPrice:2900,rating:4.5,stock:'In Stock',desc:'40mm drivers, 30hr battery, foldable design, clear mic for calls.',img:'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=800&auto=format&fit=crop'},
+  {id:28,cat:'Accessories',name:'65W GaN Fast Charger (USB-C + USB-A)',badge:'Fast Charge',price:950,oldPrice:1200,rating:4.7,stock:'In Stock',desc:'65W GaN, 2-port (USB-C PD + USB-A QC 3.0), compact, travel-ready.',img:'https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?q=80&w=800&auto=format&fit=crop'},
+  {id:29,cat:'Accessories',name:'ASUS Prime B660M-K Intel DDR4 Motherboard',badge:'Motherboard',price:13500,oldPrice:15000,rating:4.5,stock:'In Stock',desc:'LGA1700 socket, DDR4, PCIe 4.0, M.2 NVMe support, mATX form.',img:'https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=800&auto=format&fit=crop'},
+  {id:30,cat:'Accessories',name:'Kingston 16GB DDR4 3200MHz RAM',badge:'RAM',price:3200,oldPrice:3600,rating:4.8,stock:'In Stock',desc:'16GB DDR4 3200MHz, CL22, compatible with Intel & AMD platforms.',img:'https://images.unsplash.com/photo-1591488320449-011701bb6704?q=80&w=800&auto=format&fit=crop'},
+  {id:31,cat:'Accessories',name:'Corsair 650W 80+ Bronze PSU (Semi-Modular)',badge:'PSU',price:7500,oldPrice:8500,rating:4.7,stock:'In Stock',desc:'650W 80+ Bronze, semi-modular, 10yr warranty, quiet 120mm fan.',img:'https://images.unsplash.com/photo-1555680202-c86f0e12f086?q=80&w=800&auto=format&fit=crop'},
+  {id:32,cat:'Accessories',name:'PC Gaming Case (Mid Tower, Tempered Glass)',badge:'Case',price:5500,oldPrice:6500,rating:4.5,stock:'In Stock',desc:'Mid-tower ATX case, tempered glass side panel, 3x120mm fan included.',img:'https://images.unsplash.com/photo-1587829741301-dc798b83add3?q=80&w=800&auto=format&fit=crop'},
+];
+
+let cart = [];
+let currentCat = 'All';
+
+function fmt(n){return '৳'+n.toLocaleString('en-BD');}
+function stars(r){return '⭐ '+r;}
+
+function updateCounts(){
+  const cats=['Phones','CCTV','Graphics','Accessories'];
+  document.getElementById('countAll').textContent=products.length+' items';
+  cats.forEach(c=>{
+    const el=document.getElementById('count'+c);
+    if(el) el.textContent=products.filter(p=>p.cat===c).length+' items';
+  });
+}
+
+function filterCat(cat,btn){
+  currentCat=cat;
+  document.querySelectorAll('.cat-card').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  renderProducts();
+}
+
+function renderProducts(){
+  const q=document.getElementById('searchInput').value.toLowerCase();
+  const sort=document.getElementById('sortSelect').value;
+  let list=products.filter(p=>{
+    const matchCat=currentCat==='All'||p.cat===currentCat;
+    const matchQ=!q||p.name.toLowerCase().includes(q)||p.desc.toLowerCase().includes(q)||p.cat.toLowerCase().includes(q);
+    return matchCat&&matchQ;
+  });
+  if(sort==='low-high') list.sort((a,b)=>a.price-b.price);
+  else if(sort==='high-low') list.sort((a,b)=>b.price-a.price);
+  else if(sort==='rating') list.sort((a,b)=>b.rating-a.rating);
+
+  const grid=document.getElementById('productsGrid');
+  const empty=document.getElementById('noResults');
+  if(list.length===0){
+    grid.style.display='none';
+    empty.style.display='block';
+    return;
+  }
+  grid.style.display='grid';
+  empty.style.display='none';
+  grid.innerHTML=list.map(p=>`
+    <div class="product-card">
+      <div class="p-img-wrap">
+        <img src="${p.img}" alt="${p.name}" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=800&auto=format&fit=crop'">
+        <span class="p-badge">${p.badge}</span>
+        <span class="p-stock">✅ ${p.stock}</span>
+        <button class="p-wishlist" title="Wishlist">🤍</button>
+      </div>
+      <div class="p-body">
+        <div class="p-meta">
+          <span class="p-cat">${p.cat}</span>
+          <span class="p-rating">${stars(p.rating)}</span>
+        </div>
+        <div class="p-name">${p.name}</div>
+        <div class="p-desc">${p.desc}</div>
+        <div class="p-price-row">
+          <div>
+            <span class="p-price">${fmt(p.price)}</span>
+            <span class="p-old"> ${fmt(p.oldPrice)}</span>
+          </div>
+          <button class="p-add" onclick="addToCart(${p.id})">🛒 Add</button>
+        </div>
+      </div>
+    </div>
+  `).join('');
+}
+
+function addToCart(id){
+  const p=products.find(x=>x.id===id);
+  const ex=cart.find(x=>x.id===id);
+  if(ex) ex.qty++; else cart.push({...p,qty:1});
+  updateCart();
+  showToast('✅ '+p.name.slice(0,30)+'... added!');
+}
+
+function removeFromCart(id){
+  cart=cart.filter(x=>x.id!==id);
+  updateCart();
+}
+
+function changeQty(id,delta){
+  const item=cart.find(x=>x.id===id);
+  if(!item) return;
+  item.qty+=delta;
+  if(item.qty<1) removeFromCart(id);
+  else updateCart();
+}
+
+function updateCart(){
+  const count=cart.reduce((s,x)=>s+x.qty,0);
+  document.getElementById('cartCount').textContent=count;
+  const body=document.getElementById('cartBody');
+  const footer=document.getElementById('cartFooter');
+  if(cart.length===0){
+    body.innerHTML='<div class="cart-empty"><div class="cart-empty-icon">🛒</div><p>Your cart is empty.</p><p>Browse products and add items!</p></div>';
+    footer.style.display='none';
+    return;
+  }
+  footer.style.display='block';
+  const total=cart.reduce((s,x)=>s+x.price*x.qty,0);
+  document.getElementById('cartSubtotal').textContent=fmt(total);
+  document.getElementById('cartTotal').textContent=fmt(total);
+  body.innerHTML=cart.map(x=>`
+    <div class="cart-item">
+      <img class="cart-item-img" src="${x.img}" alt="${x.name}" onerror="this.src='https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=200'">
+      <div>
+        <div class="cart-item-name">${x.name}</div>
+        <div class="cart-item-price">${fmt(x.price)}</div>
+        <div class="cart-qty">
+          <button class="qty-btn" onclick="changeQty(${x.id},-1)">−</button>
+          <span class="qty-val">${x.qty}</span>
+          <button class="qty-btn" onclick="changeQty(${x.id},1)">+</button>
+        </div>
+      </div>
+      <button class="remove-btn" onclick="removeFromCart(${x.id})">🗑️</button>
+    </div>
+  `).join('');
+}
+
+function buildWaMsg(){
+  let msg='Hello CircuitNest BD! 👋\n\nI want to order:\n\n';
+  cart.forEach(x=>{
+    msg+=`• ${x.name}\n  Qty: ${x.qty} × ${fmt(x.price)} = ${fmt(x.price*x.qty)}\n\n`;
+  });
+  const total=cart.reduce((s,x)=>s+x.price*x.qty,0);
+  msg+=`Total: ${fmt(total)}\n\nPlease confirm stock, delivery charge and payment details. Thank you!`;
+  return encodeURIComponent(msg);
+}
+
+document.getElementById('sendOrderWa').addEventListener('click',()=>{
+  if(cart.length===0) return;
+  window.open('https://wa.me/'+WA+'?text='+buildWaMsg(),'_blank');
+});
+
+function showToast(msg){
+  const t=document.getElementById('toast');
+  t.textContent=msg;
+  t.classList.add('show');
+  setTimeout(()=>t.classList.remove('show'),2800);
+}
+
+// Cart open/close
+document.getElementById('openCart').addEventListener('click',()=>{
+  document.getElementById('drawer').classList.add('open');
+  document.getElementById('overlay').classList.add('open');
+});
+function closeCart(){
+  document.getElementById('drawer').classList.remove('open');
+  document.getElementById('overlay').classList.remove('open');
+}
+document.getElementById('closeCart').addEventListener('click',closeCart);
+document.getElementById('overlay').addEventListener('click',closeCart);
+
+// Mobile menu
+document.getElementById('menuBtn').addEventListener('click',()=>{
+  document.getElementById('mobileMenu').classList.toggle('open');
+});
+document.querySelectorAll('.mobile-menu a').forEach(a=>{
+  a.addEventListener('click',()=>document.getElementById('mobileMenu').classList.remove('open'));
+});
+
+// Init
+updateCounts();
+renderProducts();
+updateCart();
+</script>
+</body>
+</html>
